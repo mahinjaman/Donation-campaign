@@ -1,0 +1,135 @@
+[
+  {
+    "id": 1,
+    "picture": "https://i.ibb.co/7GVjHJd/Health.png",
+    "title": "Clean water for children",
+    "category": "Health",
+    "color_for_category_bg": "#aec8ff",
+    "color_for_card_bg": "#d9e5ff",
+    "text_color": "#0e5bff",
+    "description": "Access to clean water is essential for the health and well-being of children around the world. With our Clean Water for Children initiative, we aim to provide safe and sustainable water sources to communities in need. By supporting this cause, you can make a tangible difference in the lives of children, ensuring they have access to clean and safe drinking water for a healthier future.",
+    "price": 299.99
+  },
+  {
+    "id": 2,
+    "picture": "https://i.ibb.co/1RWjwYK/Education.png",
+    "title": "Good Education",
+    "category": "Education",
+    "color_for_category_bg": "#ffc3c5",
+    "color_for_card_bg": "#ffe3e4",
+    "text_color": "#ff4e54",
+    "description": "Invest in the future with our Good Education program. We believe that every child deserves access to quality education, regardless of their background or circumstances. By supporting our initiative, you're providing educational resources, scholarships, and opportunities for students to reach their full potential. Together, we can empower the next generation and build a brighter future for all.",
+    "price": 499.99
+  },
+  {
+    "id": 3,
+    "picture": "https://i.ibb.co/M5P1W8h/Clothing.png",
+    "title": "Used Clothing Drive",
+    "category": "Clothing",
+    "color_for_category_bg": "#D4ECC1",
+    "color_for_card_bg": "#EBF6E2",
+    "text_color": "#79C23F",
+    "description": "Join us in our mission to provide clothing for those in need through our Used Clothing Drive. Your donations will make a meaningful impact on individuals and families facing financial hardship, homelessness, or other challenges. By giving gently used clothing a new life, you're not only reducing waste but also helping others in your community. Together, we can make a difference one piece of clothing at a time.",
+    "price": 399.99
+  },
+  {
+    "id": 4,
+    "picture": "https://i.ibb.co/PrpNZBQ/Food.png",
+    "title": "Better Food for Everyone",
+    "category": "Food",
+    "color_for_category_bg": "#fdd2c4",
+    "color_for_card_bg": "#feeae3",
+    "text_color": "#f9805b",
+    "description": "Indulge in a delightful combination of fresh greens, vibrant vegetables, and protein-packed ingredients with our Healthy Salad. This nutritious meal is meticulously crafted to offer a burst of flavor and energy, perfect for supporting your well-being and vitality. Whether you're looking for a light lunch or a satisfying dinner option, our Healthy Salad is sure to leave you feeling nourished and satisfied.",
+    "price": 249.99
+  },
+  {
+    "id": 5,
+    "picture": "https://i.ibb.co/PrpNZBQ/Food.png",
+    "title": "Better Food for Everyone",
+    "category": "Food",
+    "color_for_category_bg": "#fdd2c4",
+    "color_for_card_bg": "#feeae3",
+    "text_color": "#f9805b",
+    "description": "Indulge in a delightful combination of fresh greens, vibrant vegetables, and protein-packed ingredients with our Healthy Salad. This nutritious meal is meticulously crafted to offer a burst of flavor and energy, perfect for supporting your well-being and vitality. Whether you're looking for a light lunch or a satisfying dinner option, our Healthy Salad is sure to leave you feeling nourished and satisfied.",
+    "price": 249.99
+  },
+  {
+    "id": 6,
+    "picture": "https://i.ibb.co/M5P1W8h/Clothing.png",
+    "title": "Used Clothing Drive",
+    "category": "Clothing",
+    "color_for_category_bg": "#D4ECC1",
+    "color_for_card_bg": "#EBF6E2",
+    "text_color": "#79C23F",
+    "description": "Join us in our mission to provide clothing for those in need through our Used Clothing Drive. Your donations will make a meaningful impact on individuals and families facing financial hardship, homelessness, or other challenges. By giving gently used clothing a new life, you're not only reducing waste but also helping others in your community. Together, we can make a difference one piece of clothing at a time.",
+    "price": 399.99
+  },
+  
+  {
+    "id": 7,
+    "picture": "https://i.ibb.co/1RWjwYK/Education.png",
+    "title": "Good Education",
+    "category": "Education",
+    "color_for_category_bg": "#ffc3c5",
+    "color_for_card_bg": "#ffe3e4",
+    "text_color": "#ff4e54",
+    "description": "Invest in the future with our Good Education program. We believe that every child deserves access to quality education, regardless of their background or circumstances. By supporting our initiative, you're providing educational resources, scholarships, and opportunities for students to reach their full potential. Together, we can empower the next generation and build a brighter future for all.",
+    "price": 499.99
+  },
+  {
+    "id": 8,
+    "picture": "https://i.ibb.co/7GVjHJd/Health.png",
+    "title": "Clean water for children",
+    "category": "Health",
+    "color_for_category_bg": "#aec8ff",
+    "color_for_card_bg": "#d9e5ff",
+    "text_color": "#0e5bff",
+    "description": "Access to clean water is essential for the health and well-being of children around the world. With our Clean Water for Children initiative, we aim to provide safe and sustainable water sources to communities in need. By supporting this cause, you can make a tangible difference in the lives of children, ensuring they have access to clean and safe drinking water for a healthier future.",
+    "price": 299.99
+  },
+  {
+    "id": 9,
+    "picture": "https://i.ibb.co/7GVjHJd/Health.png",
+    "title": "Clean water for children",
+    "category": "Health",
+    "color_for_category_bg": "#aec8ff",
+    "color_for_card_bg": "#d9e5ff",
+    "text_color": "#0e5bff",
+    "description": "Access to clean water is essential for the health and well-being of children around the world. With our Clean Water for Children initiative, we aim to provide safe and sustainable water sources to communities in need. By supporting this cause, you can make a tangible difference in the lives of children, ensuring they have access to clean and safe drinking water for a healthier future.",
+    "price": 299.99
+  },
+  {
+    "id": 10,
+    "picture": "https://i.ibb.co/1RWjwYK/Education.png",
+    "title": "Good Education",
+    "category": "Education",
+    "color_for_category_bg": "#ffc3c5",
+    "color_for_card_bg": "#ffe3e4",
+    "text_color": "#ff4e54",
+    "description": "Invest in the future with our Good Education program. We believe that every child deserves access to quality education, regardless of their background or circumstances. By supporting our initiative, you're providing educational resources, scholarships, and opportunities for students to reach their full potential. Together, we can empower the next generation and build a brighter future for all.",
+    "price": 499.99
+  },
+  {
+    "id": 11,
+    "picture": "https://i.ibb.co/M5P1W8h/Clothing.png",
+    "title": "Used Clothing Drive",
+    "category": "Clothing",
+    "color_for_category_bg": "#D4ECC1",
+    "color_for_card_bg": "#EBF6E2",
+    "text_color": "#79C23F",
+    "description": "Join us in our mission to provide clothing for those in need through our Used Clothing Drive. Your donations will make a meaningful impact on individuals and families facing financial hardship, homelessness, or other challenges. By giving gently used clothing a new life, you're not only reducing waste but also helping others in your community. Together, we can make a difference one piece of clothing at a time.",
+    "price": 399.99
+  },
+  {
+    "id": 12,
+    "picture": "https://i.ibb.co/PrpNZBQ/Food.png",
+    "title": "Better Food for Everyone",
+    "category": "Food",
+    "color_for_category_bg": "#fdd2c4",
+    "color_for_card_bg": "#feeae3",
+    "text_color": "#f9805b",
+    "description": "Indulge in a delightful combination of fresh greens, vibrant vegetables, and protein-packed ingredients with our Healthy Salad. This nutritious meal is meticulously crafted to offer a burst of flavor and energy, perfect for supporting your well-being and vitality. Whether you're looking for a light lunch or a satisfying dinner option, our Healthy Salad is sure to leave you feeling nourished and satisfied.",
+    "price": 249.99
+  }
+]
