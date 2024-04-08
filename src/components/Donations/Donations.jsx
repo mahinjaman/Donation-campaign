@@ -35,7 +35,7 @@ const Donations = () => {
             <Helmet>
                 <title>Donations</title>
             </Helmet>
-            <div className=" grid md:grid-cols-2 gap-4 lg:grid-cols-1 xl:grid-cols-2 md:w-10/12 mx-auto md:mt-20">
+            <div className=" grid md:grid-cols-2 gap-4 lg:grid-cols-1 xl:grid-cols-2 md:w-10/12 mx-auto md:mt-20 p-4">
                 {
                     displayDonateCardsSpecific.map(card => <DonationStoredCard key={card.id} card={card}></DonationStoredCard>)
                 }

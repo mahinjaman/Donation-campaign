@@ -10,7 +10,7 @@ const DonationStoredCard = ({card}) => {
 
     return (
         <div style={cardStyle} className='md:flex md:flex-col lg:flex-row gap-4 rounded-md'>
-            <img src={picture} alt={category} />
+            <img className='w-full md:w-auto' src={picture} alt={category} />
             <div className='text-start p-4 flex flex-col justify-start items-start gap-2'>
                 <p className='py-1 px-2 rounded-md font-normal' style={{ backgroundColor: `${color_for_category_bg}` }}>{category}</p>
                 <h3 className='font-bold text-2xl text-black'>{title}</h3>
