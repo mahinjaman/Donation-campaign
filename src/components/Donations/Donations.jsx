@@ -1,22 +1,24 @@
-import { useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
-import DonationCard from "../DonationCard/DonationCard";
+import { useLoaderData } from "react-router-dom";
+import { getDataFromLS } from "../../Utiliti/LocalStorage";
+import DonationStoredCard from "../DonationStoredCard/DonationStoredCard";
 
 const Donations = () => {
-    const [donationsCards, setDonationsCards] = useState([])
-    useEffect(()=>{
-        fetch('donationsData.json')
-        .then(res => res.json())
-        .then(data => setDonationsCards(data))
-    },[])
+    const AllDonations = useLoaderData();
+    const storedDonationsId = getDataFromLS();
+    const storedDonationsCard = [];
+    for(const id of storedDonationsId) {
+        storedDonationsCard.push(AllDonations.find(donation => donation.id === id));
+    }
+    console.log(storedDonationsCard);
     return (
-        <div>
+        <div className="pb-10">
             <Helmet>
                 <title>Donations</title>
             </Helmet>
-            <div>
+            <div className=" grid md:grid-cols-2 gap-4 lg:grid-cols-1 xl:grid-cols-2 md:w-10/12 mx-auto md:mt-20">
                 {
-                    donationsCards.map(card => <DonationCard key={card.id} card={card}></DonationCard>)
+                    storedDonationsCard.map(card => <DonationStoredCard key={card.id} card={card}></DonationStoredCard>)
                 }
             </div>
         </div>

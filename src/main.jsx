@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
 import {
   createBrowserRouter,
@@ -11,6 +10,8 @@ import Donations from './components/Donations/Donations.jsx';
 import { HelmetProvider } from 'react-helmet-async';
 import Home from './components/Home/Home.jsx';
 import Statistics from './components/Statistics/Statistics.jsx';
+import DonationsDetails from './components/DonationDetails/DonationsDetails.jsx';
+
 
 const router = createBrowserRouter([
   {
@@ -19,15 +20,23 @@ const router = createBrowserRouter([
     children:[
       {
         path:'/',
+        loader: ()=> fetch('donationsData.json'),
         element: <Home></Home>
       },
       {
         path: '/donations',
+        loader: () => fetch('donationsData.json'),
         element: <Donations></Donations>
       },
       {
         path:'/statistics',
+        loader: () => fetch('donationsData.json'),
         element: <Statistics></Statistics>
+      },
+      {
+        path:'/details/:id',
+        loader: () => fetch('donationsData.json'),
+        element: <DonationsDetails></DonationsDetails>
       }
     ]
   }

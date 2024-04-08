@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
+import PropTypes from 'prop-types';
 const DonationCard = ({card}) => {
-    console.log(card);
     const { id, picture, category, title, color_for_category_bg, color_for_card_bg, text_color } = card;
     const cardStyle = {
         background: color_for_card_bg,
@@ -18,5 +18,9 @@ const DonationCard = ({card}) => {
         </NavLink>
     );
 };
+
+DonationCard.propTypes = {
+    card: PropTypes.object.isRequired,
+}
 
 export default DonationCard;

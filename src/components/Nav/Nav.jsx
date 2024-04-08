@@ -5,7 +5,7 @@ const Nav = () => {
     return (
         <div className="flex flex-row gap-10 md:relative md:z-10 items-center justify-between py-10 px-10 md:w-10/12 mx-auto">
             <div className="">
-                <NavLink to='/'><img src={Logo} alt="Logo" /></NavLink>
+                <NavLink to={'/'}><img src={Logo} alt="Logo" /></NavLink>
             </div>
             <div className="">
                 <ul className=" flex text-md md:text-lg md:gap-4 gap-2">
