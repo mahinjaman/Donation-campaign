@@ -24,8 +24,8 @@ const Statistics = () => {
     };
 
     const data = [
-        { name: 'Total Donation', value: totalCards.length },
         { name: 'Your Donation', value: storedYourDonations.length },
+        { name: 'Total Donation', value: totalCards.length },
     ];
 
     const COLORS = ['#00C49F', 'red'];
